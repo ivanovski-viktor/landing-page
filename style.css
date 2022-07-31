@@ -138,9 +138,54 @@ button{
     width: auto;
     margin: 0px -10px 0px -10px;
     background-color: #E5E7EB ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3-h1{
+    height: 150px;
+    width: 1200px;
+    font-family: italic;
+    font-weight: 100;
+    color: #454f5c;
+}
+.section3-p{
+    height: 20px;
+    width: 1100px;
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
 }
 .section4{
     height: 400px;
     width: auto;
     margin: 0px -10px 0px -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section4-div{
+    height: 180px;
+    width: 75%;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#bottom-signup{
+    border-color: white;
+}
+#section4-p-1{
+color: #E5E7EB;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 700;
+}
+#section4-p-2{
+color: #E5E7EB;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
 }
