@@ -21,11 +21,11 @@
     text-align: center;
 }
 #logo{
-    color: rgb(80, 138, 192);
+    color:#1F2937;
     font-family: 'Arial Narrow Bold', sans-serif;
     font-weight: 800;
     font-size: 17px;
-    background-color: rgb(215, 231, 245);
+    background-color: rgb(152, 155, 160);
     height: 26px;
     width: 100px;
     border-radius: 45%;
@@ -38,4 +38,109 @@ margin-right: 15px;
 font-family: 'Times New Roman', Times, serif;
 font-weight:400;
 font-size:18px;
+}
+.section1{
+    background-color: #1F2937;
+    height: 500px;
+    width: auto;
+    margin: 0px -10px 0px -10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.course-img{
+    height: 300px;
+    width: 500px;
+    margin-right: 100px;
+    border: #2c3a4d solid;
+    border-width: 5px;
+}
+.s1-div2{
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+
+}
+.s1-div1{
+    height: 300px;
+    width: 500px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.heading1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.paragraph1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: #1F2937;
+    color: #E5E7EB;
+    background-color: #3882F6;
+
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.section2{
+    height: 600px;
+    width: auto;
+    margin: 0px -10px 0px -10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section2-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.course{
+    height: 250px;
+    width: 200px;
+    margin: 20px;
+}
+.course p{
+    text-align: center;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-img{
+    height: 150px;
+    width: 100;
+    padding: 20px;
+    border:#3881f6c9 solid;
+    border-radius: 10px;
+    border-width: 5px;
+}
+.signup{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    border: #E5E7EB;
+}
+
+.section3{
+    height: 500px;
+    width: auto;
+    margin: 0px -10px 0px -10px;
+    background-color: #E5E7EB ;
+}
+.section4{
+    height: 400px;
+    width: auto;
+    margin: 0px -10px 0px -10px;
 }
